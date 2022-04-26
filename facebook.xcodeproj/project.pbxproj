@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114849192816905400C2FF18 /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114849182816905400C2FF18 /* RoomItem.swift */; };
+		1148491B2816C71C00C2FF18 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148491A2816C71C00C2FF18 /* StoryItem.swift */; };
+		1148491D2816CD7900C2FF18 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148491C2816CD7900C2FF18 /* PostItem.swift */; };
 		11E243B728155CEC00368F0C /* facebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E243B628155CEC00368F0C /* facebookApp.swift */; };
 		11E243B928155CEC00368F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E243B828155CEC00368F0C /* ContentView.swift */; };
 		11E243BB28155CEF00368F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E243BA28155CEF00368F0C /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		114849182816905400C2FF18 /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		1148491A2816C71C00C2FF18 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		1148491C2816CD7900C2FF18 /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
 		11E243B328155CEC00368F0C /* facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E243B628155CEC00368F0C /* facebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookApp.swift; sourceTree = "<group>"; };
 		11E243B828155CEC00368F0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				11E243B628155CEC00368F0C /* facebookApp.swift */,
 				11E243B828155CEC00368F0C /* ContentView.swift */,
+				114849182816905400C2FF18 /* RoomItem.swift */,
+				1148491A2816C71C00C2FF18 /* StoryItem.swift */,
+				1148491C2816CD7900C2FF18 /* PostItem.swift */,
 				11E243BA28155CEF00368F0C /* Assets.xcassets */,
 				11E243BC28155CEF00368F0C /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				11E243B928155CEC00368F0C /* ContentView.swift in Sources */,
 				11E243B728155CEC00368F0C /* facebookApp.swift in Sources */,
+				1148491D2816CD7900C2FF18 /* PostItem.swift in Sources */,
+				1148491B2816C71C00C2FF18 /* StoryItem.swift in Sources */,
+				114849192816905400C2FF18 /* RoomItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,6 +313,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
