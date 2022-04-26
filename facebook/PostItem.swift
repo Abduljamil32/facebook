@@ -22,31 +22,44 @@ struct PostItem: View {
                         Circle().frame(width: 16, height: 16).foregroundColor(.green)
                     }
                 }
+                
                 VStack(alignment: .leading, spacing: 5){
-                    HStack{
-                        Text("Alexa")
-                            .fontWeight(.bold)
-                        Text("uptaded his profile picture").font(.system(size: 18))
-                            .foregroundColor(.black.opacity(0.7))
-                            .lineLimit(2)
-                    }
+                    Text("Alexa")
+                        .fontWeight(.bold)
                     HStack(alignment: .bottom){
                         Text("20m").foregroundColor(.gray.opacity(0.9))
-                        Image(systemName: "person.2.fill").resizable()
+                        Image(systemName: "globe").resizable()
                             .frame(width: 20, height: 18)
+                            .foregroundColor(.black.opacity(0.7))
                     }
                     
                 }
+                
                 Spacer()
                 Image(systemName: "ellipsis")
             }.padding(.leading, 10).padding(.trailing, 10).padding(.top, 10)
+            
+            VStack(alignment: .leading, spacing: 5){
+                HStack{
+                    Text("!?").foregroundColor(.red)
+                        .font(.system(size: 28))
+                        .fontWeight(.bold)
+                    Text("Are u wonna go to this place?")
+                }
+                HStack(spacing: 5){
+                    Text("This place is...")
+                    Text("See more").foregroundColor(.gray)
+                    Spacer()
+                    
+                }
+            }.padding(.leading, 10)
             //            image
-            ZStack{
-                Circle().frame(width: 355, height: 400).foregroundColor(.gray)
-                Image("im_story1").resizable().clipShape(Circle())
-                    .frame(width: 350, height: 400)
+            HStack{
+                Image("im_story2").resizable().scaledToFit()
+                Spacer()
+                Image("im_story2").resizable().scaledToFit()
             }
-                
+            
             
             //            footer
             HStack(alignment: .center, spacing: 5){

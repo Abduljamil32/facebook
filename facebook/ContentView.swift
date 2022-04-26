@@ -112,6 +112,7 @@ struct ContentView: View {
                     HStack{
                         ScrollView(.horizontal, showsIndicators: false){
                             HStack{
+                                CreateStory()
                                 StoryItem()
                                 StoryItem()
                                 StoryItem()
