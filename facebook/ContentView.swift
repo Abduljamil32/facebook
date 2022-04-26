@@ -83,8 +83,12 @@ struct ContentView: View {
                             HStack{
                                 Image(systemName: "video.badge.plus").foregroundColor(.purple)
                                     .font(.system(size: 28))
-                                Text("Create Room").foregroundColor(.blue).font(.system(size: 19)).bold()
-                            }
+                                    .padding(.leading, 10)
+                                VStack{
+                                    Text("Creat").foregroundColor(.blue).font(.system(size: 19)).bold()
+                                    Text("Room").foregroundColor(.blue).font(.system(size: 19)).bold()
+                                }.padding(.top, 5).padding(.trailing, 10).padding(.bottom, 5)
+                            }.overlay(RoundedRectangle(cornerRadius: 20).stroke(.blue.opacity(0.5), lineWidth: 3))
                         }
                         ScrollView(.horizontal, showsIndicators: false){
                             HStack(spacing: 20){
